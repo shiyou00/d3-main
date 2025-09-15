@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js 可视化项目</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>D3.js 数据可视化</h1>
+            <p>探索数据的力量</p>
+        </header>
+        
+        <main>
+            <div class="chart-container">
+                <h2>示例图表</h2>
+                <div id="chart"></div>
+            </div>
+            
+            <div class="controls">
+                <button id="updateData">更新数据</button>
+                <button id="addData">添加数据点</button>
+                <button id="resetData">重置数据</button>
+            </div>
+        </main>
+    </div>
+    
+    <!-- 引入D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
